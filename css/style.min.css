@@ -312,6 +312,15 @@ h6 {
   min-height: 347px
 }
 
+.carousel-inner {
+  border-radius: var(--global--border-radius10)
+}
+
+.main-news-slider .carousel-inner img {
+  min-width: 100%;
+  height: auto
+}
+
 .Counter-box .carousel-control-prev {
   right: 73%;
   top: -24%;
@@ -351,7 +360,7 @@ h6 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   color: #fff;
-  width: calc(100% - 10px);
+  width: 100%;
   text-align: center;
   text-align: revert;
   margin-bottom: 0;
@@ -614,6 +623,6 @@ h6 {
   .carousel-caption::before {
     right: 6px;
     height: 52%;
-    top: 23%
+    top: 32%
   }
 }

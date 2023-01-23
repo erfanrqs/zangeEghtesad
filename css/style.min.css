@@ -326,11 +326,11 @@ h6 {
   left: 4%
 }
 
-.carousel-control-prev-icon {
+.Counter-box .carousel-control-prev-icon {
   background-image: url(../assets/icons/prev-chevron.svg)
 }
 
-.carousel-control-next-icon {
+.Counter-box .carousel-control-next-icon {
   background-image: url(../assets/icons/next-chevron.svg)
 }
 
@@ -588,6 +588,14 @@ h6 {
   .navbar-nav {
     margin-top: 10px
   }
+
+  .carousel-caption {
+    display: block !important
+  }
+
+  .carousel-caption p {
+    font-size: var(--global--font-size--small)
+  }
 }
 
 @media only screen and (max-width:576px) {
@@ -601,5 +609,11 @@ h6 {
 
   .navbar {
     border-radius: 0
+  }
+
+  .carousel-caption::before {
+    right: 6px;
+    height: 52%;
+    top: 23%
   }
 }

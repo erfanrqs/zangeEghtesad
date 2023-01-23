@@ -354,17 +354,14 @@ h6 {
   border-bottom-left-radius: var(--global--border-radius10);
   position: absolute;
   left: 15%;
-  bottom: 1.25rem;
   bottom: 0%;
   right: 0;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-  color: #fff;
   width: 100%;
-  text-align: center;
   text-align: revert;
   margin-bottom: 0;
-  padding-right: 5%
+  padding-right: 5%;
 }
 
 .carousel-item h2 {
